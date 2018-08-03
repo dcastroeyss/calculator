@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="js/index.js" ></script>
+    <link rel="stylesheet" href="css/index.css">
+    <title> Calc </title>
+</head>
+
+<body onload="start()">
+  <div id="calc">
+    <input id="wynik" name="cyferki" maxlength="14" disabled/>
+    <div id="buttons">
+      <div class="btn" id="div0" onclick="showMe('1')">1</div>
+      <div class="btn" id="div1" onclick="showMe('2')">2</div>
+      <div class="btn" id="div2" onclick="showMe('3')">3</div>
+      <div class="btn" id="div3" onclick="showMe('4')">4</div>
+      <div class="btn" id="div4" onclick="showMe('5')">5</div>
+      <div class="btn" id="div5" onclick="showMe('6')">6</div>
+      <div class="btn" id="div6" onclick="showMe('7')">7</div>
+      <div class="btn" id="div7" onclick="showMe('8')">8</div>
+      <div class="btn" id="div8" onclick="showMe('9')">9</div>
+      <div class="btn" id="div9" onclick="showMe('0')">0</div>
+      <div class="btn" id="div10" onclick="showMe('+')">+</div>
+      <div class="btn" id="div11" onclick="showMe('-')">-</div>
+      <div class="btn" id="div12" onclick="showMe('×')">×</div>
+      <div class="btn" id="div13" onclick="showMe('÷')">÷</div>
+      <div class="btn" id="div14" onclick="showMe('=')">=</div>
+    </div>
+  </div>
+    <div id="clear" onclick="whitePower()">clear</div>
+    <div id="operator"></div>
+</body>
+</html>
